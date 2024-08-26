@@ -53,11 +53,6 @@ public class PlayerMovement3 : MonoBehaviour
     float _dashTime = 0.2f;
     float _dashCooldown = 1f;
 
-    private void OnApplicationQuit()
-    {
-        MoveStats.TimeTillJumpApex = 0.4f;
-    }
-
     private void Awake()
     {
         //        _isFacingRight = true;
